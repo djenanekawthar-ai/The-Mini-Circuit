@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #102a43;
+    background: linear-gradient(135deg, #f0f4f8 0%, #d9e2ec 100%);
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    max-width: 99%;
+}
+
+header {
+    font-size: 2rem;
+    padding: 2rem 5%;
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(5px);
+    border-bottom: 1px solid #bcccdc;
+    text-align: left;
+    box-shadow: 0 5px 50px rgba(0,0,0,0.15);
+    text-decoration: underline;
+}
+
+p {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #485169;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #07153f;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #0b2265;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+    text-decoration: underline;
+}
+
+h3 {
+    text-decoration: underline;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #0b2265;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+
+button {
+    color: black;
+    background-color: #d1dae4;
+    padding: 12px 28px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 5px 50px rgba(0,0,0,0.15);
+}
+
+
+a {
+    text-decoration: underline;
+    color: #3f485a;
+}
+
+img {
+    border: black solid;
+    border-width: 0.5mm;
+    border-radius: 17px;
+    width: 350px;
+    height: 300px;
+    box-shadow: 0 5px 50px rgba(0,0,0,0.15);
+}
+
+a {
+    text-decoration: underline;
+
+}
+
+footer {
+    padding: 1.5rem 5%;
+    text-align: middle;
+    background-color: #132333;
+    color: #f0f4f8;
+    font-size: 0.9rem;
+    text-align: left;
+    box-shadow: 0 5px 50px rgba(0,0,0,0.15);
+}
+
+h4 {
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: #d1dcff;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+
+.tableau-css {
+    border-collapse: collapse;
+    min-width: fit-content;
+ box-shadow: 0 5px 50px rgba(0,0,0,0.15);
+    width: fit-content;
+    min-height: fit-content;
+    cursor: pointer;
+    margin: auto;
+    border: 1px solid black;
+}
+
+thead tr{
+    color: #07153f;
+    text-align: center;
+}
+ th, td{
+    padding: 15px 20px;
+ }
+
+ tbody tr, td, th{
+    border: 1px solid #ddd;
+ }
